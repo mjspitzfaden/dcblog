@@ -1,6 +1,8 @@
+
+<p> this ran </p>
 <h1>{{ post.title }}</h1>
 <div class="content">
-  {{ post.html()|safe }}
+  {{ post }}
 </div>
 <div class="created">
   {{ post.created }}
@@ -11,7 +13,7 @@
   </a>
 </div>
 <div>
-  <form action="/post/{{ post.slug }}/comment" method="post">
+  <form action="/post/{{post.slug}}/comment" method="post">
     <textarea name="comment"></textarea>
     <br>
     <button type="submit">Create Comment</button>

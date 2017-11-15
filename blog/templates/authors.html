@@ -1,0 +1,12 @@
+<h1> AUTHORS ARE: </h1>
+
+<ul>
+  {% for author in authors %}
+  <li>
+    <p></p>
+    <a href="/authors/{{ author.slug }}">
+      {{ author.name }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
