@@ -1,4 +1,2 @@
 # dcblog
-
-- line 1
-- line 2
+class blog exercise to introdue us to the Tornado framework.
